@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<!--Jquery color plugin(helps to add background color in animation)-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-color/2.1.2/jquery.color.min.js"></script>    
+<!--Jquery base theme cdn (check out other themes also)-->
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> 
+     <link rel="stylesheet" href="CSS/page2.css">
+    
+     
+</head>
+<body >
+     <br>
+     <div class="container">
+          <div class="box"><h1>The Amazing Dare Dozon</h1>
+              <p id="timebox">Time <span id='time'>1:30</span></p>
+              
+              <br><br><br> 
+               
+                          <!--one-->
+                         <br> <br>
+                         <div class="move1">
+                              <img class="egg" id="egg1" src="images/egg.png" >
+                              <br>
+                              <img class="nest" id="nest1" src="images/nest.png">
+                         </div>
+                         <!--two-->
+                         <br>  <br> <br>
+                         <div class="move2">
+                              <img class="egg" id="egg2" src="images/egg.png" >
+                              <br>
+                              <img class="nest" id="nest2" src="images/nest.png">
+                         </div>
+                         <!--three-->
+                         <br> <br> <br>
+                         <div class="move3">
+                              <img class="egg" id="egg3" src="images/egg.png" >
+                              <br>
+                              <img class="nest" id="nest3" src="images/nest.png">
+                         </div>
+                         <!--four-->
+                         <br>  <br> <br>
+                         <div class="move4">
+                              <img class="egg" id="egg4" src="images/egg.png" >
+                              <br>
+                              <img class="nest"  id="nest4" src="images/nest.png">
+                         </div>
+                         <!--five-->
+                         <br> <br>
+               
+                    
+          </div>
+         
+           
+     </div>
+ 
+
+
+ <!--Fo the dialog box-->
+     <div id="dialog" title="Rules">
+          <p> <b>Tap the start</b> to start the game </p>
+          <p>Break the eggs By Tapping On Them</p>
+          <p><b> </p>
+
+          <p>Have fun!</p>
+          <button class="start " id="close_dialog" onclick="timer()"> START </button>
+          
+          
+     </div>
+
+
+
+
+
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+<!--Database CDN for firebase-->
+<script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCVWJdP05LIy6TH2H7z-iMkeHlDZYPkbro",
+    authDomain: "chatapp-5b9c2.firebaseapp.com",
+    databaseURL: "https://chatapp-5b9c2.firebaseio.com",
+    projectId: "chatapp-5b9c2",
+    storageBucket: "chatapp-5b9c2.appspot.com",
+    messagingSenderId: "924656229255",
+    appId: "1:924656229255:web:08099c7655124a2e201122",
+    measurementId: "G-70Q7HXCK0V"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+
+
+
+  
+<script src="script/page2.js" ></script>
+</body>
+</html>
