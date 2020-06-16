@@ -30,10 +30,6 @@ $(document).ready(function() {
 
     });
 
-//stops the animation
-    $(".stop").click(function(){
-      $(".move1").finish();
-    });
 
   
 });
