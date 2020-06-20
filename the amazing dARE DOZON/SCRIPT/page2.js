@@ -94,7 +94,7 @@ function timer(){
        //game over when the time runs out
        if(time==0){
         setTimeout(function () {
-          score =25*count+50*(time+1);  
+          score =25*count+50*(time+1);            //issue   if the user poop all the eggs before tims runs out still this isnt adding to it yet.
             //because countdown in internal starts with 0 so it goes to -1 when it apperantly gives 00
           Name = prompt('Game Over \n Your Score is:-'+score+' \n Enter Your Name:  ');
           window.location.href = "Index.htm";
@@ -106,19 +106,4 @@ function timer(){
 
   }
 
-//print in main page
 
-// Get a reference to the database service
-var database = firebase.database();
-
-function writeUserData(userId, name, email, imageUrl) {
-  firebase.database().ref('users/' + userId).set({
-    username: name,
-    email: email,
-    profile_picture : imageUrl
-  });
-}
-
-
-
-//database
