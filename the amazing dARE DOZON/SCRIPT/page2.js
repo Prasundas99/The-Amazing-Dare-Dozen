@@ -11,9 +11,19 @@ $( function() {
      
   });
 });
+// Start button will play the animation
+$(`#close-dialog`).click((e)=>{
+  e.preventDefault();
+  timer();
+})
+
+
+
 //closing dialog box
 $('#close_dialog').click(function() {
   $('#dialog').dialog('close');
+  timer();
+
   });
 
 $(document).ready(function() {
@@ -21,7 +31,7 @@ $(document).ready(function() {
   //start the animation
     $(".start").click(function(){
       for (let index = 0; index < 1000; index++) {
-      $(".move1").animate({marginLeft:"84%"},1250,"linear"),$(".move1").animate({marginLeft:"3%"},1800,"linear"),
+      // $(".move1").animate({marginLeft:"84%"},1250,"linear"),$(".move1").animate({marginLeft:"3%"},1800,"linear"),
       $(".move2").animate({marginLeft:"83%"},1000,"linear"),$(".move2").animate({marginLeft:"4%"},1659,"linear"),
       $(".move3").animate({marginLeft:"83%"},1460,"linear"),$(".move3").animate({marginLeft:"4%"},1000,"linear"),
       $(".move4").animate({marginLeft:"83%"},1660,"linear"),$(".move4").animate({marginLeft:"4%"},1260,"linear"),
@@ -44,6 +54,8 @@ $(document).ready(function(){
       $(".egg").click(function(){
           // Change src attribute of image
           $(this).attr("src", "images/broken-egg.png");
+      
+      console.log("Broken Egg");
           
       }); 
     
@@ -81,7 +93,7 @@ function timer(){
   let time = startingmunutes *60;
   
   const countdown = document.getElementById("#time");
-       setInterval (updatetimer,1000);
+  setInterval (updatetimer,1000);
   function  updatetimer(){
   
        const min = Math.floor(time/60);
