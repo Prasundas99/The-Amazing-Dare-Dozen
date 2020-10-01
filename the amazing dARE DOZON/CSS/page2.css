@@ -1,15 +1,14 @@
 body{
-     
-     background-color: rgb(88, 94, 36);
-
+       background-color: rgb(88, 94, 36);
 }
-.box{
 
+.box{
      align-items: center;
      border: 5px solid black;
      margin: 1px;
      background-color: rgb(206, 231, 138);
 }
+
 h1{ 
      width: 95%;
      font-weight: bold;
@@ -20,13 +19,12 @@ h1{
      color: rgba(103, 187, 64, 0.664);
      text-shadow:  3px  3px rgb(35, 53, 8);
      font-size: 400%;
-
 }
-
 
 .move1{
      align-items: center;
 }
+
 .move2{
      align-items: center;
 }
