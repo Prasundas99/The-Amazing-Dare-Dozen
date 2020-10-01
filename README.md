@@ -3,7 +3,7 @@
 A full-Stack Project based on the old school game THE AMAZING DARE DOZEN.With some added modifications
 The game uses a real time data base with user interaction.
 
-Link for the project:
+Link for the project:https://k4vmh3vg6glytra0uazeuw-on.drv.tw/the%20amazing%20dARE%20DOZON/Index.htm
 
 # A brief introduction to the project:
 
