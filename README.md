@@ -3,7 +3,7 @@
 A full-Stack Project based on the old school game THE AMAZING DARE DOZEN.With some added modifications
 The game uses a real time data base with user interaction.
 
-Link for the project: https://k4vmh3vg6glytra0uazeuw-on.drv.tw/the%20amazing%20dARE%20DOZON/Index.htm
+Link for the project:https://prasundas99.github.io/The-Amazing-Dare-Dozen/
 
 # A brief introduction to the project:
 
@@ -32,9 +32,6 @@ CSS3:
 	jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, 
   CSS animation, and Ajax. It is free, open-source software using the permissive MIT License	
 
-Firebase:
-  Google Firebase is a Google-backed application development software that enables developers to develop iOS,
-  Android and Web apps. Firebase provides tools for tracking analytics, reporting and fixing app crashes, creating marketing and product experiment
 
-Hosted on google drive.
+
 
