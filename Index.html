@@ -1,84 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>The Amazing Dare Dozon</title>
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-<!--Jquery color plugin(helps to add background color in animation)-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-color/2.1.2/jquery.color.min.js"></script>    
-<!--Jquery base theme cdn (check out other themes also)-->
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">    
-<link rel="stylesheet" href="CSS/index.css">
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Egg Burst Game</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-     <br> <br> <br>
-     
-     <div class=" container box">
-               <h1 class="h">The Amazing Dare <br> Dozon</h1>
-              <br>
-               <div class="col-md-1"></div>
-              <div class=" rounded click "> <a  href="page2.htm"> <img class="center"src="images/the amazing dare dozen.png" alt="The Amazing Dare Dozon"> </a>
-              </div>
-              <br><br>
+    <main>
+        <div class="middle_box">
+            <h1>Welcome To Gaming World</h1>
+            <p>On the next page you have to Burst <b>4</b> Eggs Within Given time!</p>
+            <h6>Sound Easy huh? Lets see how will you do!</h6>
 
-              <!--score
-
-              <table class="table">
-                    <thead>
-                         
-                         <th>Name</th> 
-                         <th>Score</th>
-                    </thead>
-                    <tbody>
-                         <tr>
-                             
-                              <td>Prasun <br> <div id="name"></div> </td>
-                              <td>40 <br> <div id="score"></div></td>
-                         </tr>
-                    </tbody>
-              </table>
-          -->
-          <script type="text/javascript">
-
-               $(function () {
-                   $('#swhTimeExposed').stopwatch({
-                       updateInterval: 100
-                   });
-           
-                   $('#btnSearch').button({
-                       icons: {
-                           primary: "ui-icon-clock"
-                       },
-                       text: true
-                   })
-                       .bind('click', function (e) {
-                           // Start Stop watch
-                           $('#swhTimeExposed').stopwatch('start');
-                       }
-                   );
-               });
-           </script>
-           
-         
-
-               <br><br>
-           </div>
-     </div>
-
-
-
-
-
-
-<script src="script/page2.js"></script>
+            <div class="start_note">
+                <p>Click any where to start the game!</p>
+            </div>
+        </div>
+    </main>
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- external javascript -->
+    <Script src="game_code.js"></Script>
 </body>
 </html>
